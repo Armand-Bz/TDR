@@ -1,0 +1,40 @@
+/* CSS Variables */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FFC107;
+    --accent-color: #FF5722;
+    --background-color: #FFFFFF;
+    --text-color: #333333;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.5;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Additional Global Styles */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
