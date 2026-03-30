@@ -1,0 +1,13 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+/dist
+
+# Local environment files
+.env
+
+# IDE settings
+/.idea/
+/.vscode/
+/.DS_Store/
